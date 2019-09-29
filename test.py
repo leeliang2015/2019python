@@ -17,3 +17,4 @@ mean_impute = Pipeline([('imputer', SimpleImputer (strategy='mean')),
 
 x = pima.drop('onset_disbetes', axis=1) # 丢弃y
 y = pima['onset_disbetes']
+d
